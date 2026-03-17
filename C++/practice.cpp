@@ -3,8 +3,6 @@ namespace first{
       int age = 7;
 }
 int main(){
-    using std::cout;
-    using std::string;
     //integer (whole number)
     int age = 2;
     //double (number including decimal)
@@ -14,13 +12,13 @@ int main(){
     //single character
     const char GRADE2 = 'A';
     //string (sequence text)
-    string name = "Lucas navarro";
+    std::string name = "Lucas navarro";
     //boolean (true or false)
     bool student = true;
     //output
-   cout << first::age << std::endl;
-    cout << "I like pizza" << std::endl;
-    cout << "I'ts really good" << std::endl;
-    cout << "I'ts an new student?" << std::endl;
+    std::cout << first::age << std::endl;
+    std::cout << "I like pizza" << std::endl;
+    std::cout << "I'ts really good" << std::endl;
+    std::cout << "I'ts an new student?" << std::endl;
     return 0;
 }
